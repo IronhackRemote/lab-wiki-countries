@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: rgb(204, 247, 232);
+  margin: 0px;
+  padding: 0px;
 }
 
 .App-logo {
@@ -18,8 +21,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nav {
+  background-color: #5266d4;
+  padding: 20px;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.flag {
+  width: 100px;
+  height: auto;
 }
